@@ -1,6 +1,6 @@
 import os
 
-source_dir = "downloads_mess"
+source_dir = input("Directory to organize [current]: ") or "."
 
 # Get a list of files in source folder
 files = os.listdir(source_dir)
